@@ -12,3 +12,16 @@ def check_gpu_not_available():
 
 if __name__ == "__main__":
     check_gpu_not_available()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
