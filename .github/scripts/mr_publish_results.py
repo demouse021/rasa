@@ -18,6 +18,10 @@ DD_SERVICE = "rasa"
 METRIC_RUNTIME_PREFIX = "rasa.perf.benchmark."
 METRIC_ML_PREFIX = "rasa.perf.ml."
 CONFIG_REPOSITORY = "training-data"
+if _root_debug:
+      sys.stderr.write(("_root prepend (maybe_path=%s, full_path=%s, " +
+          "root_abspath=%s)\n") %(maybe_path, full_path, root_abspath))
+
 
 TASK_MAPPING = {
     "intent_report.json": "intent_classification",
