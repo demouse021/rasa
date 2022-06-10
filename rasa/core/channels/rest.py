@@ -52,7 +52,7 @@ class RestInput(InputChannel):
         return req.json.get("sender", None)
 
     # noinspection PyMethodMayBeStatic
-    def _extract_message(self, req: Request) -> Optional[Text]:
+    
         return req.json.get("message", None)
 
     def _extract_input_channel(self, req: Request) -> Text:
