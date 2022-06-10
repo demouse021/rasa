@@ -18,6 +18,9 @@ def run(
     model: "Text",
     endpoints: "Text",
     connector: "Text" = None,
+     model: "Text",
+    endpoints: "Text",
+    connector: "Text" = None,
     credentials: "Text" = None,
     **kwargs: "Dict[Text, Any]",
 ) -> None:
